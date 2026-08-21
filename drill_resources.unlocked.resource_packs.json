@@ -1028,8 +1028,8 @@
               "teaching_focus": "One reading is one point in space. This is the most consequential idea in the deck."
             },
             {
-              "text": "Oxygen reads 20.7% instead of 20.9%. Everything else zero. Nothing is alarming.",
-              "answer": "A significant finding, and the monitor will not tell you so. A drop of roughly 0.2% oxygen implies something on the order of 10,000 ppm of another gas displacing it — and if that gas is one the sensors are not fitted for, this deflection is the ONLY evidence you will get. Correct answer treats any change from 20.9% as information, states it out loud, and does not wait for an alarm.",
+              "text": "Oxygen reads 0.2 points below the meter's clean-air baseline (for example 20.7 after a 20.9 parking-lot bump). Everything else zero. Nothing is alarming.",
+              "answer": "A significant finding, and the monitor will not tell you so. Confirm the meter's clean-air baseline first — parking lot, after a pass bump. A real drop of roughly 0.2 points from THAT confirmed baseline implies something on the order of 10,000 ppm of another gas displacing it — and if that gas is one the sensors are not fitted for, this deflection is the ONLY evidence you will get. Correct answer treats a real drop from the confirmed baseline as information, states it out loud, and does not wait for an alarm.",
               "teaching_focus": "Reading the meter rather than waiting for it to shout. Some materials only become visible as an oxygen deficit."
             },
             {
@@ -1153,7 +1153,7 @@
             },
             {
               "text": "STATION 4 — An unknown odour at a small business. Employees are outside, several with headaches. There are no placards, no visible container, no obvious source. The building is a single-story commercial unit in a row. The caller says it started about twenty minutes ago.",
-              "answer": "Recognize: an unidentified atmosphere with multiple symptomatic people and no clues. Correct sequence: account for everyone who was inside and get them treated, isolate the unit and its neighbors including either side and above, deny entry to the public, and begin identification from outside — what business is it, what do they store, who is the owner, what changed twenty minutes ago. An unknown is NOT an excuse to do nothing. Where the department's scope and equipment allow it, crews may monitor: on air, with a PID if fitted, and carrying pH and fluorine paper for products that turnout gear and SCBA do not fully protect against. Anything beyond monitoring is technician work.",
+              "answer": "Recognize: an unidentified atmosphere with multiple symptomatic people and no clues. Correct sequence: account for everyone who was inside and get them treated, isolate the unit and its neighbors including either side and above, deny entry to the public, and begin identification from outside — what business is it, what do they store, who is the owner, what changed twenty minutes ago. An unknown is NOT an excuse to do nothing. Where the department's scope and equipment allow it, monitoring starts at the threshold or doorway — on air, with a PID if fitted. A sweep of the occupancy is only if the crew's mission-specific competency authorises it. pH and fluorine paper are for identification from a safe position, not permission to operate in a product that turnout and SCBA do not protect against. Anything beyond monitoring is technician work.",
               "teaching_focus": "The station with no placard, which is what most first-due crews actually get. Identification starts with questions — and an unknown is not a reason to stand still."
             },
             {
@@ -1432,7 +1432,7 @@
             },
             {
               "text": "WATER REACTIVE",
-              "answer": "Looks like: violent reaction, heat, gas generation, sometimes fire, when the instinctive tactic is applied. Consequence: the hoseline is a weapon against you, and rain or a wet floor is part of the problem. Rules out applying water to the SPILL, including for cooling, without identification. Note the widely taught exception for a person: flushing product off skin with large volumes of water generally beats brushing, because brushing drives it deeper and skin is largely water — better reacting on the ground than in the patient. Follow your medical protocol.",
+              "answer": "Looks like: violent reaction, heat, gas generation, sometimes fire, when the instinctive tactic is applied. Consequence: the hoseline is a weapon against you, and rain or a wet floor is part of the problem. Rules out applying water to the SPILL, including for cooling, without identification. Patient decon follows your medical protocol.",
               "teaching_focus": "The card where the fire service's default tool is the hazard."
             },
             {
@@ -1620,7 +1620,7 @@
               "text": "Dry bulk cargo tank silhouette (sloped hoppers underneath) — name the family and the hazard that is easy to underestimate.",
               "synthetic_prompt": "Clean technical side-elevation line illustration of a highway dry bulk cargo trailer with a rounded tank body and two or three conical hoppers sloping down beneath it to discharge outlets, plus external piping running along the lower side. Plain white background, thin dark lines, engineering-drawing style, no lettering, no placards, no damage, no context.",
               "alt": "Technical side-elevation drawing of a dry bulk cargo trailer with a rounded body and conical hoppers sloping to discharge outlets underneath.",
-              "answer": "A dry bulk carrier. Solids, often pressurised for unloading. Dust, reactivity with water, and the fact that a solid can still be a serious inhalation hazard. Commonly designated DOT-407-style dry bulk or a pneumatic hopper trailer. The designation matters less on scene than reading the shape, but it appears on written hazmat examinations, so learn both.",
+              "answer": "A pneumatic hopper / dry bulk carrier. Solids, often pressurised for unloading. Dust, reactivity with water, and the fact that a solid can still be a serious inhalation hazard.",
               "teaching_focus": "Solid does not mean inert, and pneumatic unloading means pressure on a non-pressure-looking container."
             },
             {

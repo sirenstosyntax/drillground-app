@@ -250,11 +250,11 @@
         {
           "kind": "scenario_set",
           "label": "Read-aloud scenario briefs",
-          "instructions": "Facilitator only. Members are isolated and cannot hear each other's reps. Read one brief aloud verbatim, then stop talking and start the clock — the silence is part of the drill. Do not answer questions during the rep; a member who asks the facilitator for information is showing you something. After each rep, score the strip in front of the member, then move to the next member with a different card.",
+          "instructions": "Training channel only — never the operations channel. These twelve cards are radio briefs. Do not put anyone through a floor, in wire, or on a spongy roof to run them. Optional physical stress is work in the bay (bear crawl, stairs), breathing freely — not air restriction, unless your SOP and a safety officer say otherwise. Facilitator only. Members are isolated and cannot hear each other's reps. Read one brief aloud verbatim, then stop talking and start the clock — the silence is part of the drill. Do not answer questions during the rep; a member who asks the facilitator for information is showing you something. After each rep, score the strip in front of the member, then move to the next member with a different card.",
           "items": [
             {
               "text": "You were advancing the nozzle down a hallway on the second floor of a two-and-a-half story wood-frame dwelling. The floor gave way under you and you dropped into what feels like a stairwell or a void. You are on your back, your legs are below you, and you cannot see your backup. Your line came with you. Go.",
-              "answer": "A mayday declared before any self-rescue attempt. Location as precisely as available including the floor you fell FROM and roughly where in the building. Unit and name. Assignment and air state read from the gauge, not guessed. Resources: what would actually get them out — a ladder to the void, RIT, a specific direction of approach. Correct answer keeps holding the hoseline as the orientation reference.",
+              "answer": "A mayday declared before the member spends time on a silent self-rescue. Transmit first, then work the problem. Location as precisely as available including the floor they fell FROM and roughly where in the building. Unit and name. Assignment and air state read from the gauge, not guessed. Resources: what would actually get them out — a ladder to the void, RIT, a specific direction of approach. After the transmission they keep the hoseline as the orientation reference, and they do not sit still waiting to be found if they can still move.",
               "teaching_focus": "Declaring before attempting. The most common failure is a two-minute self-rescue attempt in silence."
             },
             {
@@ -294,7 +294,7 @@
             },
             {
               "text": "You hear a PASS device activating somewhere ahead of you in a residential hallway. You cannot see it. You are alone; your partner went to the other side of the floor. Go.",
-              "answer": "A mayday for another member, transmitted as such, with the location of the PASS as precisely as it can be given and a clear statement that the transmitting member is not the one in trouble. Then a decision, stated out loud, about whether to advance to it — correct either way if the reason is defensible.",
+              "answer": "A mayday for another member, transmitted as such, with the location of the PASS as precisely as it can be given and a clear statement that the transmitting member is not the one in trouble. The next action must be on the radio — hold, withdraw, or move toward the PASS. If they move they keep talking, keep a wall or a line, and do not disappear off assignment in silence. A silent solo search for the PASS is a fail. Whether command wants them to hold or close the distance is local. Disappearing is not.",
               "teaching_focus": "Calling a mayday for someone else without muddling who is in trouble."
             },
             {

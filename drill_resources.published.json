@@ -548,11 +548,11 @@
         {
           "kind": "card_deck",
           "label": "Control prompt cards",
-          "instructions": "Print or copy one card per index card, front and back. Shuffle face down before each round. Draw, say the control's name aloud, state its function, then find it with a gloved hand and hold it until you have said where on your body it sits. The recorder is your scorer — a control you found but could not name is a miss.",
+          "instructions": "Seated or kneeling, stationary, eyes closed only. Do not walk. Do not use a blackout hood unless a second member is within arm's reach with a stop signal called aloud. Air off unless your department's in-quarters practice says otherwise. If you open the cylinder or dump air, close it, bleed it, and return the pack to ride-ready before you log the drill complete. If you activate PASS, the bay needs to know it will sound. Print or copy one card per index card, front and back. Shuffle face down before each round. Draw, say the control's name aloud, state its function, then find it with a gloved hand and hold it until you have said where on your body it sits. The recorder is your scorer — a control you found but could not name is a miss. The scored run is the eight controls the drill names, or the ones your pack actually has from that list. The extra cards are more reps, not sixteen controls crammed into the same 60 seconds.",
           "items": [
             {
               "text": "Cylinder valve",
-              "answer": "Names it, states it is the on/off for the whole air supply, and finds the handwheel at the base of the cylinder behind the hip. Opens fully, not partially — a cracked valve reads as pressure on the gauge and starves the regulator under high flow.",
+              "answer": "Names it, states it is the on/off for the whole air supply, and finds the handwheel on THEIR pack — write the position from the manual on the back of the card. Opens fully, not partially: a cracked valve can read as pressure on the gauge and starve the regulator under high flow.",
               "teaching_focus": "The control that most often gets left half-open under a fast dress-out."
             },
             {
@@ -622,7 +622,7 @@
             },
             {
               "text": "RIC / universal air connection (if your pack has one)",
-              "answer": "Names it, states it lets a RIT crew transfill air into this cylinder from outside, and finds the fitting and its cover. States that the member's job is to make it reachable, not to operate it.",
+              "answer": "Names it, states it lets a RIT crew transfill air into this cylinder from outside, and finds the fitting and its cover. States that the member's job is to make it reachable, not to operate it. If your pack has a RIC/UAC, a buddy line, both, or neither, keep only the card that matches. They are not the same control. The member's job on a RIC fitting is to make it reachable for a rescuer, not to transfill themselves.",
               "teaching_focus": "The control a downed firefighter must be able to present to a rescuer."
             },
             {

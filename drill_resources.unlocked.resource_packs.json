@@ -4267,8 +4267,8 @@
             },
             {
               "text": "You are searching alone because your partner was reassigned and command knows.",
-              "answer": "NORMAL — but state it back on the radio so it is on the record and someone hears themselves authorise it.",
-              "teaching_focus": "Not a mayday, and not silent either."
+              "answer": "URGENT-NOT-MAYDAY. You are a crew of one inside. That is not a mayday and it is not normal. Transmit your location, that you are alone, and that you are coming out or holding for a partner. Command already knowing does not make a lone interior search a normal state.",
+              "teaching_focus": "The sort this card is in is the lesson. Do not put lone interior search in the NORMAL pile."
             },
             {
               "text": "You have found a civilian victim and you cannot move them alone.",

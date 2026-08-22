@@ -4017,7 +4017,7 @@
       "paid_area": "resource_packs",
       "removes_prep": "The drill names scenario material and supplies none, and a through-the-floor rescue needs a prop built to consistent dimensions or the times mean nothing between sessions. Working the dimensions out from the drill text costs an afternoon and a tape measure.",
       "local_fill_required": true,
-      "local_fill_note": "Prop dimensions here are a starting point, not a standard: measure yours and brief any difference before the first rep, exactly as the drill instructs. Your department's rope, harness and rescue-system policy governs anything load-bearing, and nothing here authorises a technique your team is not trained in.",
+      "local_fill_note": "Prop dimensions here are a starting point, not a standard: measure yours and brief any difference before the first rep, exactly as the drill instructs. Your department's rope, harness and rescue-system policy governs anything load-bearing, and nothing here authorises a technique your team is not trained in. Nothing in this pack authorises an improvised mechanical advantage, a live victim, or a technique your team is not trained and authorised to rig. If Method 3 on the drill is above your certification, skip it. Manikin only.",
       "components": [
         {
           "kind": "worksheet",
@@ -4047,6 +4047,8 @@
             {
               "text": "Safety before every session",
               "fields": [
+                "Manikin only. Never a live firefighter in the hole. If there is no manikin, the session does not run. (Y/N)",
+                "Edge protection is on. If it is not, the session does not run. (Y/N)",
                 "Load-bearing components inspected by a second person (Y/N)",
                 "Anchor points rated and confirmed (Y/N)",
                 "Safety officer designated by name",
@@ -4073,7 +4075,7 @@
             },
             {
               "text": "V3 — RESTRICTED OPENING. Reduce the opening so the member and a rescuer cannot both occupy it.",
-              "answer": "Forces a decision about whether anyone goes below and how. Listening for a plan that does not put two members in a hole with one exit.",
+              "answer": "Forces a decision about whether anyone goes below and how. Listening for a plan that does not put two members in a hole with one exit. Nobody goes below without their own air, their own radio, and a retrieval or second egress your rescue policy allows. Two members in a hole with one exit is a stop, not a working method.",
               "teaching_focus": "The rescuer-becomes-a-victim geometry."
             },
             {

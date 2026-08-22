@@ -397,7 +397,7 @@
         {
           "kind": "reference_card",
           "label": "Emergency button — what it is and what it is not",
-          "instructions": "Print at pocket size, or copy the four questions into a notebook. Fill in the answers from your communications division before the first rep. An unanswered question on this card is a hole in the member's mayday plan, not a formatting problem.",
+          "instructions": "Before the first rep: confirm whether this button reaches dispatch on the channel the radio is on. If it does, move to a training or unused channel, or pull the battery and rehearse the motion only. Notify your communications center before any live activation is possible. Air stays off. Use your assigned radio and your assigned SCBA — not a spare. If your issued radio has no emergency button, the button half of this drill is N/A; still run the PASS half. Print at pocket size, or copy the four questions into a notebook. Fill in the answers from your communications division before the first rep. An unanswered question on this card is a hole in the member's mayday plan, not a formatting problem.",
           "items": [
             {
               "text": "QUESTION 1 — On the channel my radio is normally on for fireground operations, does pressing the emergency button reach dispatch, or only the other radios on that talkgroup?",
@@ -438,7 +438,7 @@
               "teaching_focus": "The whole point of pairing this drill with RIT-001. Speed on the button is worthless without the transmission behind it."
             },
             {
-              "text": "PASS — MANUAL VERSUS AUTOMATIC — The automatic alarm needs the member to be still, and a member working a self-rescue is not still. Manual activation is the one that works while they are moving. Sequence: transmit first, then activate, because a sounding PASS degrades your own transmission and every transmission near you.",
+              "text": "PASS — MANUAL VERSUS AUTOMATIC — The automatic alarm needs the member to be still, and a member working a self-rescue is not still. Manual activation is the one that works while they are moving. If you can talk: radio transmission first, then PASS — a sounding PASS under your own mayday costs the transmission (RIT-001). If you cannot talk: emergency button, then PASS, then stay put. Automatic PASS needs you still; manual is the one that works while you move.",
               "teaching_focus": "Ordering the two actions, which is the part members get backwards under stress."
             }
           ]
@@ -446,7 +446,7 @@
         {
           "kind": "worksheet",
           "label": "Four-position rep log",
-          "instructions": "One log per session. Run the positions in the order given — standing first because it is easiest, radio-side hip last because it is worst. Log every rep, including the failed ones; a log with no failures in it means the member was going slowly enough to succeed, which is not the drill. Under four seconds, gloved, without looking.",
+          "instructions": "Before the first rep: confirm whether this button reaches dispatch on the channel the radio is on. If it does, move to a training or unused channel, or pull the battery and rehearse the motion only. Notify your communications center before any live activation is possible. Air stays off. Use your assigned radio and your assigned SCBA — not a spare. If your issued radio has no emergency button, the button half of this drill is N/A; still run the PASS half. One log per session. Run the positions in the order given — standing first because it is easiest, radio-side hip last because it is worst. Log every rep, including the failed ones; a log with no failures in it means the member was going slowly enough to succeed, which is not the drill. Under four seconds, gloved, without looking.",
           "items": [
             {
               "text": "Position 1 — Standing",
@@ -454,7 +454,11 @@
                 "Rep times, all reps",
                 "Fastest",
                 "Number over 4 seconds",
-                "What went wrong on the slow ones"
+                "What went wrong on the slow ones",
+                "PASS times (all reps)",
+                "PASS fastest",
+                "PASS number over 4 seconds",
+                "what went wrong on the PASS"
               ],
               "teaching_focus": "Baseline. If standing is not comfortably under four, no other position will be."
             },
@@ -464,7 +468,11 @@
                 "Rep times, all reps",
                 "Fastest",
                 "Number over 4 seconds",
-                "Did the coat ride up over the radio (Y/N)"
+                "Did the coat ride up over the radio (Y/N)",
+                "PASS times (all reps)",
+                "PASS fastest",
+                "PASS number over 4 seconds",
+                "what went wrong on the PASS"
               ],
               "teaching_focus": "The working position. Most reps in real life would happen from here."
             },
@@ -474,7 +482,11 @@
                 "Rep times, all reps",
                 "Fastest",
                 "Number over 4 seconds",
-                "Could you reach across the SCBA harness (Y/N)"
+                "Could you reach across the SCBA harness (Y/N)",
+                "PASS times (all reps)",
+                "PASS fastest",
+                "PASS number over 4 seconds",
+                "what went wrong on the PASS"
               ],
               "teaching_focus": "The through-the-floor position, where the harness and the pack are between the hand and the radio."
             },
@@ -484,9 +496,23 @@
                 "Rep times, all reps",
                 "Fastest",
                 "Number over 4 seconds",
-                "Did you have to roll to reach it, and how long did the roll cost"
+                "Did you have to roll to reach it, and how long did the roll cost",
+                "PASS times (all reps)",
+                "PASS fastest",
+                "PASS number over 4 seconds",
+                "what went wrong on the PASS"
               ],
               "teaching_focus": "The worst case, deliberately last. If the answer is 'I have to roll', that is a gear-position finding, not a speed finding."
+            },
+            {
+              "text": "Combined — emergency button, then PASS, then ten-second hold",
+              "fields": [
+                "Combined times (all reps)",
+                "Fastest combined",
+                "Number that moved after the alert (movement after the alert is a fail)",
+                "Held still and audible for ten seconds (Y/N)"
+              ],
+              "teaching_focus": "The live drill success criteria. Button then PASS then ten seconds still and audible. Movement after the alert is a fail."
             },
             {
               "text": "Session findings",
@@ -508,7 +534,7 @@
       "synthetic_assets": false,
       "sme_review_required": true,
       "locked": false,
-      "item_count": 11
+      "item_count": 12
     },
     {
       "drill_id": "SCBA-006",

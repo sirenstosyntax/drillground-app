@@ -7,7 +7,7 @@
  */
 "use strict";
 
-var CACHE_VERSION = "drillground-v16";
+var CACHE_VERSION = "drillground-v17";
 
 // The app shell — cached on install so the app opens offline. Every entry here
 // is REQUIRED: cache.addAll rejects as a unit, so one missing file fails the

@@ -276,6 +276,12 @@ function resources() {
 // after the entitlement is granted. Gating reads from entitlements(), stubbed
 // open today, so nothing is actually withheld yet — the locked path is built and
 // inert until the gate closes, the same way the promotion track is.
+//
+// 2026-08-27 Grant: pack catalog is off the product UI. Preview is over.
+// The published JSON files stay on disk, unlinked. Do not sell them. Do not
+// add IAP, a buy button, a SKU, or a GATE_CLOSED paywall. Do not land image
+// decks. Drills stay free and fully usable.
+var PACKS_UI_OPEN = false;
 
 function resourcePackFor(id) {
   return resources().packForDrill(state.resources, id);
@@ -295,6 +301,7 @@ function packIsLocked(pack) {
 // a sixteen-card deck rendered between Setup and Run the drill would bury the
 // drill, and the drill is what the user came for.
 function resourceBanner(d) {
+  if (!PACKS_UI_OPEN) return "";
   var pack = resourcePackFor(d.id);
   if (!pack) return "";
   var locked = packIsLocked(pack);
@@ -323,6 +330,7 @@ function resourceBanner(d) {
 // A drill that needs no pack should say so rather than leave the user wondering
 // whether one is missing. Only shown once the resource file has actually loaded.
 function resourcesPrompt() {
+  if (!PACKS_UI_OPEN) return "";
   if (!state.resourcesReady) return "";
   var s = resources().summarise(state.resources, resourcesEntitled);
   if (s.total === 0) return "";
@@ -336,7 +344,19 @@ function resourcesPrompt() {
   );
 }
 
+function renderPacksHidden() {
+  view.innerHTML =
+    '<a class="back" href="#/">← All drills</a>' +
+    '<h2 class="view-title">Drills only</h2>' +
+    '<p class="lede">DrillGround is the drill library. Every drill is free and runnable.</p>';
+  focusMain();
+}
+
 function renderResources() {
+  if (!PACKS_UI_OPEN) {
+    renderPacksHidden();
+    return;
+  }
   // The resource file loads after the first render, so a cold load straight to
   // this route arrives before the packs do. Waiting is not the same as having
   // none: redirecting here would break every bookmark and shared link to the
@@ -444,6 +464,10 @@ function resourceCard(pack, locked) {
 }
 
 function renderResourcePack(drillId) {
+  if (!PACKS_UI_OPEN) {
+    renderPacksHidden();
+    return;
+  }
   // Same as renderResources: a bookmarked pack link arrives before the file.
   if (!state.resourcesReady) {
     view.innerHTML =
@@ -1872,6 +1896,11 @@ function boot() {
 // gets the app with no material rather than an error, because every drill is
 // runnable without its pack.
 function loadResources() {
+  // Pack files stay on disk. The product UI does not fetch or render them.
+  if (!PACKS_UI_OPEN) {
+    state.resourcesReady = true;
+    return;
+  }
   fetch(RESOURCES_URL, { cache: "no-cache" })
     .then(function (res) {
       if (!res.ok) throw new Error("HTTP " + res.status);

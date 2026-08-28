@@ -271,16 +271,15 @@ function resources() {
 // The material each drill names but does not ship (docs/resource-packs-design.md).
 // The second paid area, and the first with content behind it.
 //
-// Two files: the published one ships in the bundle and holds every free pack
-// whole plus a preview of every paid pack; the unlocked payload is fetched once
-// after the entitlement is granted. Gating reads from entitlements(), stubbed
-// open today, so nothing is actually withheld yet — the locked path is built and
-// inert until the gate closes, the same way the promotion track is.
+// The published file, if present, holds free packs only. Paid payloads are
+// not on this site. Gating reads from entitlements(), stubbed open today, so
+// nothing is actually withheld yet — the locked path is built and inert until
+// the gate closes, the same way the promotion track is.
 //
 // 2026-08-27 Grant: pack catalog is off the product UI. Preview is over.
-// The published JSON files stay on disk, unlinked. Do not sell them. Do not
-// add IAP, a buy button, a SKU, or a GATE_CLOSED paywall. Do not land image
-// decks. Drills stay free and fully usable.
+// 2026-08-28 Grant: paid pack payloads are off the public website. Do not
+// sell them. Do not add IAP, a buy button, a SKU, or a GATE_CLOSED paywall.
+// Do not land image decks. Drills stay free and fully usable.
 var PACKS_UI_OPEN = false;
 
 function resourcePackFor(id) {
@@ -1890,13 +1889,11 @@ function boot() {
     });
 }
 
-// Resource packs, in two steps. The published file always loads; a payload loads
-// only for an area the user is entitled to. Both failures are silent by design —
-// a firefighter with no signal, or a bundle built before any packs were published,
-// gets the app with no material rather than an error, because every drill is
-// runnable without its pack.
+// Resource packs stay off the product UI while PACKS_UI_OPEN is false. If that
+// flag is ever turned back on, a missing published file must fail silently —
+// every drill is runnable without its pack.
 function loadResources() {
-  // Pack files stay on disk. The product UI does not fetch or render them.
+  // Pack catalog stays off. The product UI does not fetch or render packs.
   if (!PACKS_UI_OPEN) {
     state.resourcesReady = true;
     return;

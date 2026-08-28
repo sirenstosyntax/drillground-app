@@ -7,7 +7,7 @@
  */
 "use strict";
 
-var CACHE_VERSION = "drillground-v17";
+var CACHE_VERSION = "drillground-v18";
 
 // The app shell — cached on install so the app opens offline. Every entry here
 // is REQUIRED: cache.addAll rejects as a unit, so one missing file fails the
@@ -38,9 +38,7 @@ var SHELL = [
 // its pack. Putting it in SHELL would mean one unpublished file costs the app
 // its offline support — a bad trade for supporting material.
 //
-// The unlocked payloads are deliberately NOT here. Each is fetched only by a
-// user entitled to that area, and the fetch handler below caches it when that
-// happens, so "online once to unlock, offline forever after" still holds.
+// Paid unlocked payloads are not published on this site. Do not add them back.
 var OPTIONAL = ["drill_resources.published.json"];
 
 self.addEventListener("install", function (event) {

@@ -838,55 +838,64 @@
               "text": "Rooftop PV array on a residential gable roof — identify the array, the module rows, the roof area it denies you, and state what it changes about vertical ventilation on this roof.",
               "synthetic_prompt": "Clear daytime photograph-style illustration of a residential asphalt-shingle gable roof with a rooftop photovoltaic array of dark rectangular modules in two rows on the south-facing slope, mounted on standoff rails a few inches above the shingles, conduit running from the array down the slope to a roof penetration. Neutral overcast lighting, no fire, no smoke, no people. Straight-on three-quarter view from a ladder tip height.",
               "alt": "Residential shingle gable roof with two rows of dark photovoltaic modules on rail mounts on one slope, with conduit running to a roof penetration.",
-              "teaching_focus": "The array denies the roof area under and around it for cutting, and the conduit is energised. Identify the unobstructed slope before anyone goes up."
+              "teaching_focus": "The array denies the roof area under and around it for cutting, and the conduit is energised. Identify the unobstructed slope before anyone goes up.",
+              "asset_path": "resources/TRK-007/01-rooftop-pv.jpg"
             },
             {
               "text": "Rapid-shutdown label at the service equipment — identify the label, state what it tells you and, just as importantly, what it does not tell you.",
               "synthetic_prompt": "Close-up photograph-style illustration of a reflective placard mounted on grey exterior electrical service equipment on a stucco wall, reading 'SOLAR PV SYSTEM EQUIPPED WITH RAPID SHUTDOWN' with a simplified line diagram of a house and roof array beneath the text. Neutral daylight, no fire, no smoke, no people, label filling most of the frame and legible.",
               "alt": "Reflective placard on exterior electrical equipment reading SOLAR PV SYSTEM EQUIPPED WITH RAPID SHUTDOWN with a small house-and-array diagram.",
-              "teaching_focus": "The label says a shutdown initiator exists. It does not say the array conductors are de-energised, and it does not say anyone has operated it."
+              "teaching_focus": "The label says a shutdown initiator exists. It does not say the array conductors are de-energised, and it does not say anyone has operated it.",
+              "asset_path": "resources/TRK-007/02-rapid-shutdown-label.jpg"
             },
             {
               "text": "String inverter mounted on an exterior wall — identify it, and state which side of it stays energised in daylight regardless of what you switch off.",
               "synthetic_prompt": "Photograph-style illustration of a grey rectangular wall-mounted solar string inverter approximately two feet tall on an exterior stucco wall beside a conduit run and a small DC disconnect box, with warning labels visible on the front cover. Neutral daylight, no fire, no smoke, no people. Straight-on view.",
               "alt": "Grey wall-mounted solar string inverter on an exterior wall with an adjacent small disconnect box and conduit.",
-              "teaching_focus": "The DC side from the array remains energised whenever the modules see light. Switching the AC side does not make the roof safe."
+              "teaching_focus": "The DC side from the array remains energised whenever the modules see light. Switching the AC side does not make the roof safe.",
+              "asset_path": "resources/TRK-007/03-string-inverter.jpg"
             },
             {
               "text": "Micro-inverter / module-level electronics under the array — identify what is under the modules and state what it changes about cutting through the array.",
               "synthetic_prompt": "Photograph-style illustration looking under the edge of a rooftop photovoltaic module on rail mounts, showing a small rectangular electronic unit attached to the racking beneath the module with short cables to adjacent units. Neutral daylight, close-up, no fire, no smoke, no people.",
               "alt": "View beneath the edge of a rooftop solar module showing a small electronic unit mounted on the racking with short cables running to neighboring units.",
-              "teaching_focus": "There is energised electronics and cabling in the space between the modules and the roof deck. That space is not empty and it is not a place to put a saw."
+              "teaching_focus": "There is energised electronics and cabling in the space between the modules and the roof deck. That space is not empty and it is not a place to put a saw.",
+              "asset_path": "resources/TRK-007/04-microinverter.jpg"
             },
             {
               "text": "Roof-mounted DC conduit run — trace it, and state where it goes and why you care about its route through the attic.",
               "synthetic_prompt": "Photograph-style illustration of metallic electrical conduit running from a rooftop solar array down across asphalt shingles, entering the roof through a flashed penetration, with a small red or orange conduit marking label visible. Neutral daylight, no fire, no smoke, no people.",
               "alt": "Metal conduit running from a rooftop solar array across shingles into a flashed roof penetration, with a small warning label on the conduit.",
-              "teaching_focus": "Energised DC conductors run inside the building envelope between the array and the inverter. Opening the ceiling can open that conduit."
+              "teaching_focus": "Energised DC conductors run inside the building envelope between the array and the inverter. Opening the ceiling can open that conduit.",
+              "asset_path": "resources/TRK-007/05-dc-conduit.jpg"
             },
             {
               "text": "Residential battery energy storage unit in a garage — identify it and state what it changes about isolating power to the structure.",
               "synthetic_prompt": "Photograph-style illustration of a large white rectangular wall-mounted home battery energy storage unit, roughly four feet tall, on a garage drywall wall next to conduit and a grey electrical subpanel, concrete floor, storage shelving in the background. Neutral indoor lighting, no fire, no smoke, no people.",
               "alt": "Large white wall-mounted home battery storage unit on a garage wall beside conduit and a grey electrical subpanel.",
-              "teaching_focus": "Pulling the meter does not de-energise the building. A battery back-feeds, and it holds stored energy that no external disconnect removes."
+              "teaching_focus": "Pulling the meter does not de-energise the building. A battery back-feeds, and it holds stored energy that no external disconnect removes.",
+              "asset_path": "resources/TRK-007/06-garage-battery.jpg"
             },
             {
               "text": "Battery installation with multiple stacked modules — identify the arrangement and state what the quantity changes about your risk assessment.",
               "synthetic_prompt": "Photograph-style illustration of three tall white rectangular battery storage modules mounted side by side on an exterior wall of a house under a small protective canopy, with conduit connecting them and hazard labelling on each unit. Neutral daylight, no fire, no smoke, no people.",
               "alt": "Three white battery storage modules mounted side by side on an exterior house wall under a canopy, connected by conduit, with hazard labels.",
-              "teaching_focus": "More modules is more stored energy and more thermal-runaway mass. This is a defensive-posture question long before it is a hoseline question."
+              "teaching_focus": "More modules is more stored energy and more thermal-runaway mass. This is a defensive-posture question long before it is a hoseline question.",
+              "asset_path": "resources/TRK-007/07-stacked-batteries.jpg"
             },
             {
               "text": "Exterior electrical service — identify the meter, the main disconnect if present, and state in what order you would want them addressed and by whom.",
               "synthetic_prompt": "Photograph-style illustration of a residential exterior electrical service on a stucco wall: round glass-domed utility meter in a grey socket, a grey main disconnect box below it with a external operating handle, and conduit running up into the wall. Neutral daylight, no fire, no smoke, no people. Straight-on view.",
               "alt": "Residential exterior electrical service with a round glass utility meter, a grey main disconnect box with an external handle below it, and conduit.",
-              "teaching_focus": "Know which of these your department is authorised to operate and which belongs to the utility. Simulate and verbalise; do not operate live utilities without authorisation."
+              "teaching_focus": "Know which of these your department is authorised to operate and which belongs to the utility. Simulate and verbalise; do not operate live utilities without authorisation.",
+              "asset_path": "resources/TRK-007/08-electrical-service.jpg"
             },
             {
               "text": "Gas meter and service shutoff — identify the shutoff, the tool it takes, and state what you must confirm before and after operating it.",
               "synthetic_prompt": "Photograph-style illustration of a residential natural gas meter on an exterior wall, showing the meter body, the riser pipe from the ground, and the quarter-turn service valve with a rectangular tang below the meter. Neutral daylight, no fire, no smoke, no people, close enough that the valve tang is clearly visible.",
               "alt": "Residential exterior natural gas meter with riser pipe and a quarter-turn service valve with a rectangular tang below the meter body.",
-              "teaching_focus": "A quarter turn to the closed position, with the right wrench, and the confirmation step: nobody restores it but the utility."
+              "teaching_focus": "A quarter turn to the closed position, with the right wrench, and the confirmation step: nobody restores it but the utility.",
+              "asset_path": "resources/TRK-007/09-gas-meter.jpg"
             },
             {
               "text": "The card you write — your own utility arrangement.",

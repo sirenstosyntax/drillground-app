@@ -651,43 +651,50 @@
               "text": "Flat load — bed cross-section",
               "synthetic_prompt": "Clean technical line diagram, cross-section view of a fire apparatus hose bed, showing hose laid flat in horizontal stacked layers filling the bed width, each layer drawn as a flattened oval in cross-section, with a simple arrow indicating the direction of the fold at each end. Plain white background, thin black lines, minimal labelling, engineering-drawing style. No text.",
               "alt": "Technical cross-section diagram of a hose bed with hose laid flat in stacked horizontal layers, arrows showing the fold direction at each end.",
-              "teaching_focus": "The simplest pattern and the baseline for the vocabulary — layer, fold, bed width."
+              "teaching_focus": "The simplest pattern and the baseline for the vocabulary — layer, fold, bed width.",
+              "asset_path": "resources/ENG-011/01-flat-load.jpg"
             },
             {
               "text": "Accordion load — bed cross-section",
               "synthetic_prompt": "Clean technical line diagram, cross-section view of a fire apparatus hose bed with hose laid on edge in vertical folds side by side across the bed width, each length drawn as a tall narrow oval standing upright, arrows showing the vertical fold pattern. Plain white background, thin black lines, engineering-drawing style. No text.",
               "alt": "Technical cross-section diagram of a hose bed with hose laid on edge in vertical folds standing side by side across the bed.",
-              "teaching_focus": "On-edge versus flat, and why the pull comes off differently."
+              "teaching_focus": "On-edge versus flat, and why the pull comes off differently.",
+              "asset_path": "resources/ENG-011/02-accordion-load.jpg"
             },
             {
               "text": "Triple-layer load — top view showing the three folds",
               "synthetic_prompt": "Clean technical line diagram, top-down view of a hose length folded into three equal stacked layers before being loaded into a hose bed, showing the two fold points and the nozzle end position, with dimension lines indicating the three equal segments. Plain white background, thin black lines, engineering-drawing style. No text.",
               "alt": "Technical top-down diagram of a hose length folded into three equal layers with the two fold points and the nozzle end marked.",
-              "teaching_focus": "The fold arithmetic that decides how far the shoulder carry reaches."
+              "teaching_focus": "The fold arithmetic that decides how far the shoulder carry reaches.",
+              "asset_path": "resources/ENG-011/03-triple-layer.jpg"
             },
             {
               "text": "Minuteman load — top view showing the shoulder-carry stack",
               "synthetic_prompt": "Clean technical line diagram, side view of a minuteman hose load stacked so the load can be lifted onto the shoulder as a unit and paid off from the top, showing the stack orientation, the nozzle at the top of the stack, and an arrow indicating the direction hose pays out. Plain white background, thin black lines, engineering-drawing style. No text.",
               "alt": "Technical side-view diagram of a minuteman hose load stack with the nozzle at the top and an arrow showing hose paying out from the top of the stack.",
-              "teaching_focus": "Why this load pays off the top and what happens if it is built upside down."
+              "teaching_focus": "Why this load pays off the top and what happens if it is built upside down.",
+              "asset_path": "resources/ENG-011/04-minuteman.jpg"
             },
             {
               "text": "Nozzle-end placement — the difference that is not the pattern",
               "synthetic_prompt": "Clean technical line diagram showing two side-by-side hose bed cross-sections that are identical except for the position of the nozzle: in the left the nozzle sits on top of the load at the rear, in the right it is tucked into the side of the load. Simple circle marking the nozzle in each. Plain white background, thin black lines, engineering-drawing style. No text.",
               "alt": "Two side-by-side technical cross-sections of identical hose loads differing only in nozzle position: on top at the rear versus tucked into the side.",
-              "teaching_focus": "The variation that causes most cross-shift disagreement, and it is not a different load."
+              "teaching_focus": "The variation that causes most cross-shift disagreement, and it is not a different load.",
+              "asset_path": "resources/ENG-011/05-nozzle-placement.jpg"
             },
             {
               "text": "Bed division for two preconnects of different lengths",
               "synthetic_prompt": "Clean technical line diagram, top-down view of a fire apparatus hose bed divided by a vertical partition into two unequal compartments, each containing a stacked hose load drawn as horizontal lines, with the compartments visibly different in depth. Plain white background, thin black lines, engineering-drawing style. No text.",
               "alt": "Technical top-down diagram of a hose bed split by a partition into two unequal compartments, each holding a stacked hose load.",
-              "teaching_focus": "Reading a bed as several loads rather than one, and knowing which compartment is which by feel."
+              "teaching_focus": "Reading a bed as several loads rather than one, and knowing which compartment is which by feel.",
+              "asset_path": "resources/ENG-011/06-bed-division.jpg"
             },
             {
               "text": "Correct versus incorrect fold at the bed edge",
               "synthetic_prompt": "Clean technical line diagram with two panels side by side: the left shows hose folds finishing flush and square at the edge of a hose bed, the right shows the same folds finishing unevenly with one fold protruding past the bed edge and another short of it. Simple tick and cross marks above the panels. Plain white background, thin black lines, engineering-drawing style. No text other than the tick and cross.",
               "alt": "Two-panel technical diagram contrasting hose folds finishing flush and square at the bed edge with folds finishing unevenly, one protruding and one short.",
-              "teaching_focus": "The specific defect that causes a load to hang up on the pull, drawn rather than described."
+              "teaching_focus": "The specific defect that causes a load to hang up on the pull, drawn rather than described.",
+              "asset_path": "resources/ENG-011/07-fold-edge.jpg"
             },
             {
               "text": "Load height relative to the bed rail",
@@ -1177,37 +1184,43 @@
               "text": "Station 1 target — an orange four-digit panel, read at distance from the isolation line.",
               "synthetic_prompt": "Flat straight-on illustration of a rectangular orange panel with a thin black border bearing four large dark numerals, mounted on a plain metal surface. Neutral even lighting, plain background, no vehicle context, no people, no damage.",
               "alt": "Rectangular orange panel with a black border bearing four large numerals, mounted on a plain metal surface.",
-              "teaching_focus": "The specific-material clue, read from where the crew chose to stand."
+              "teaching_focus": "The specific-material clue, read from where the crew chose to stand.",
+              "asset_path": "resources/HZM-003/01-un-panel.jpg"
             },
             {
               "text": "Station 1 context — non-pressure cargo tank silhouette, for the container call.",
               "synthetic_prompt": "Clean technical side-elevation line illustration of a highway cargo tank trailer with an oval cross-section tank, flat top with several small dome covers along the centerline, bottom-mounted valve piping midway along the underside, and a top rollover rail. Plain white background, thin dark lines, engineering-drawing style, no lettering, no placards, no damage, no context.",
               "alt": "Technical side-elevation drawing of an oval-cross-section highway cargo tank trailer with top dome covers, bottom valve piping and a rollover rail.",
-              "teaching_focus": "Naming the container family from silhouette alone, which is all a crew at distance has."
+              "teaching_focus": "Naming the container family from silhouette alone, which is all a crew at distance has.",
+              "asset_path": "resources/HZM-003/02-cargo-tank.jpg"
             },
             {
               "text": "Station 2 target — pressure rail tank car silhouette.",
               "synthetic_prompt": "Clean technical side-elevation line illustration of a railroad tank car with a long circular tank, rounded ends, a single raised protective housing centerd on top, no other visible external fittings, resting on two rail trucks with wheels. Plain white background, thin dark lines, engineering-drawing style, no lettering, no placards, no damage, no context.",
               "alt": "Technical side-elevation drawing of a railroad tank car with one raised top housing and no other visible fittings, on two rail trucks.",
-              "teaching_focus": "One housing means pressure means a rail-scale isolation."
+              "teaching_focus": "One housing means pressure means a rail-scale isolation.",
+              "asset_path": "resources/HZM-003/03-railcar.jpg"
             },
             {
               "text": "Station 3 target — the DANGEROUS placard.",
               "synthetic_prompt": "Flat straight-on illustration of a standard diamond-shaped DOT hazard placard, upper half red and lower half white with a red lower band, bearing the word DANGEROUS in dark capital letters across the middle, no symbol and no class numeral. Neutral even lighting, plain background, no vehicle context, no people, no damage.",
               "alt": "Diamond hazard placard with red and white bands bearing the word DANGEROUS in capital letters, with no symbol or class number.",
-              "teaching_focus": "The placard that sends the crew to the paperwork and makes retrieving it a decision."
+              "teaching_focus": "The placard that sends the crew to the paperwork and makes retrieving it a decision.",
+              "asset_path": "resources/HZM-003/04-dangerous-placard.jpg"
             },
             {
               "text": "Station 5 target — intermediate bulk container in a steel cage.",
               "synthetic_prompt": "Clean technical illustration of a cubic intermediate bulk container: a translucent plastic inner vessel enclosed in a welded tubular steel cage on an integral pallet base, with a large screw cap on top and a discharge valve at the bottom front. Plain white background, thin dark lines, engineering-drawing style, no lettering, no placards, no damage, no context.",
               "alt": "Technical drawing of a cubic intermediate bulk container with a plastic vessel in a welded steel cage on a pallet, with a top screw cap and bottom discharge valve.",
-              "teaching_focus": "Forty of these on one rack run is the quantity that matters, not the one that is leaking."
+              "teaching_focus": "Forty of these on one rack run is the quantity that matters, not the one that is leaking.",
+              "asset_path": "resources/HZM-003/05-ibc.jpg"
             },
             {
               "text": "Station 6 target — liquefied gas cylinder, squat with a collar.",
               "synthetic_prompt": "Clean technical illustration of a squat wide industrial liquefied gas cylinder standing upright, roughly as wide as it is tall, with a raised protective collar around the top and two or three valve fittings visible inside the collar, plain unmarked body. Plain white background, thin dark lines, engineering-drawing style, no lettering, no placards, no damage, no context.",
               "alt": "Technical drawing of a squat wide upright liquefied gas cylinder with a raised protective collar and two or three valve fittings inside it.",
-              "teaching_focus": "Collar and multiple valves means liquid and vapour, in a basement."
+              "teaching_focus": "Collar and multiple valves means liquid and vapour, in a basement.",
+              "asset_path": "resources/HZM-003/06-cylinder.jpg"
             }
           ]
         },
@@ -1537,140 +1550,160 @@
               "synthetic_prompt": "Flat straight-on illustration of a standard diamond-shaped DOT hazard placard, red background, white flame symbol in the upper area, numeral 3 at the bottom point, mounted on a plain metal panel with a separate rectangular orange panel below it bearing four dark numerals. Neutral even lighting, plain background, no vehicle context, no people, no damage.",
               "alt": "Red diamond hazard placard with a white flame symbol and the numeral 3, above a rectangular orange panel bearing four numerals.",
               "answer": "Class 3, flammable liquid, identified by the red field and flame. The orange rectangular panel carries the four-digit UN/ID number, which is the specific-material lookup — the placard alone gives only the hazard class.",
-              "teaching_focus": "Class versus specific material. The panel is what narrows an ERG lookup from a whole class to one guide."
+              "teaching_focus": "Class versus specific material. The panel is what narrows an ERG lookup from a whole class to one guide.",
+              "asset_path": "resources/HZM-006/01-class3-un-panel.jpg"
             },
             {
               "text": "Class 2 non-flammable gas placard — name the class and state what the color alone does and does not tell you.",
               "synthetic_prompt": "Flat straight-on illustration of a standard diamond-shaped DOT hazard placard with a green background, a white gas cylinder symbol in the upper area, and the numeral 2 at the bottom point. Neutral even lighting, plain background, no vehicle context, no people.",
               "alt": "Green diamond hazard placard with a white gas cylinder symbol and the numeral 2.",
               "answer": "Class 2.2 non-flammable gas. The green field and cylinder identify the division, not the material — a non-flammable gas can still be an asphyxiant, a cryogen, or acutely toxic. This is the placard ANHYDROUS AMMONIA actually travels under, which is the clearest possible proof that 'non-flammable' does not mean 'not dangerous'.",
-              "teaching_focus": "Ammonia is placarded 2.2. That single fact does more to kill the 'green means fine' reflex than any explanation."
+              "teaching_focus": "Ammonia is placarded 2.2. That single fact does more to kill the 'green means fine' reflex than any explanation.",
+              "asset_path": "resources/HZM-006/02-class2-nonflammable.jpg"
             },
             {
               "text": "Class 2 flammable gas placard — name it, and state what changes about your approach versus the previous card.",
               "synthetic_prompt": "Flat straight-on illustration of a standard diamond-shaped DOT hazard placard with a red background, a white flame symbol in the upper area, and the numeral 2 at the bottom point. Neutral even lighting, plain background, no vehicle context, no people.",
               "alt": "Red diamond hazard placard with a white flame symbol and the numeral 2.",
               "answer": "Class 2 flammable gas. Red plus a 2 rather than a 3 means a compressed or liquefied flammable gas, so vapour behavior, BLEVE potential and ignition-source control all enter the size-up.",
-              "teaching_focus": "Reading the numeral, not just the color. Red appears on two very different classes."
+              "teaching_focus": "Reading the numeral, not just the color. Red appears on two very different classes.",
+              "asset_path": "resources/HZM-006/03-class2-flammable-gas.jpg"
             },
             {
               "text": "Class 2 poison / toxic gas placard — name it and state why it outranks almost everything else on a mixed load.",
               "synthetic_prompt": "Flat straight-on illustration of a standard diamond-shaped DOT hazard placard with a white background, a black skull-and-crossbones symbol in the upper area, and the numeral 2 at the bottom point. Neutral even lighting, plain background, no vehicle context, no people.",
               "alt": "White diamond hazard placard with a black skull-and-crossbones symbol and the numeral 2.",
               "answer": "Class 2.3 toxic gas. Skull and crossbones with a 2 is a toxic-inhalation-hazard gas, and it belongs in the ERG's green-bordered table. It does NOT automatically carry the largest isolation distance on a scene — some explosives distances are larger — so read the guide rather than ranking placards by memory.",
-              "teaching_focus": "A placard that should change where the apparatus stops. Look the distance up; do not rank hazards by instinct."
+              "teaching_focus": "A placard that should change where the apparatus stops. Look the distance up; do not rank hazards by instinct.",
+              "asset_path": "resources/HZM-006/04-class2-poison-gas.jpg"
             },
             {
               "text": "Class 8 corrosive placard — name it and state what it means for PPE and for runoff.",
               "synthetic_prompt": "Flat straight-on illustration of a standard diamond-shaped DOT hazard placard, upper half white and lower half black, with a black symbol of liquid dripping from two test tubes onto a hand and a surface in the upper half, and the numeral 8 at the bottom point. Neutral even lighting, plain background, no vehicle context, no people.",
               "alt": "Diamond hazard placard with a white upper half and black lower half, showing liquid dripping from two test tubes onto a hand and a surface, with the numeral 8.",
               "answer": "Class 8 corrosive. Structural PPE is not chemical protection, and the runoff is a downstream and drainage problem as much as a scene problem.",
-              "teaching_focus": "Recognising a class where turnout gear gives a false sense of protection."
+              "teaching_focus": "Recognising a class where turnout gear gives a false sense of protection.",
+              "asset_path": "resources/HZM-006/05-class8-corrosive.jpg"
             },
             {
               "text": "Class 5.1 oxidizer placard — name it and state what it does to a fire you might otherwise treat as ordinary.",
               "synthetic_prompt": "Flat straight-on illustration of a standard diamond-shaped DOT hazard placard with a yellow background, a black circle with flames above it in the upper area, and the numerals 5.1 at the bottom point. Neutral even lighting, plain background, no vehicle context, no people.",
               "alt": "Yellow diamond hazard placard with a black flaming circle symbol and the numerals 5.1.",
               "answer": "Class 5.1 oxidizer. It supplies its own oxygen, so it accelerates combustion, can reignite, and defeats smothering tactics.",
-              "teaching_focus": "The class that invalidates a tactic rather than adding a hazard."
+              "teaching_focus": "The class that invalidates a tactic rather than adding a hazard.",
+              "asset_path": "resources/HZM-006/06-class5-oxidizer.jpg"
             },
             {
               "text": "Class 1 explosives placard with a division and compatibility group — name what the two characters after the 1 are.",
               "synthetic_prompt": "Flat straight-on illustration of a standard diamond-shaped DOT hazard placard with an orange background, a black exploding-bomb symbol in the upper area, a division numeral and a single capital letter in the middle area, and the numeral 1 at the bottom point. Neutral even lighting, plain background, no vehicle context, no people.",
               "alt": "Orange diamond hazard placard with a black exploding-bomb symbol, a division number and a capital letter, and the numeral 1.",
               "answer": "Class 1 explosives. The numeral after the class is the division and the capital letter is the compatibility group — both change the ERG guide and the isolation, so 'explosives' alone is not an identification.",
-              "teaching_focus": "A class where reading only the word loses the information that matters."
+              "teaching_focus": "A class where reading only the word loses the information that matters.",
+              "asset_path": "resources/HZM-006/07-class1-explosives.jpg"
             },
             {
               "text": "Class 7 radioactive placard — name it and state the one action that precedes all others.",
               "synthetic_prompt": "Flat straight-on illustration of a standard diamond-shaped DOT hazard placard with a yellow upper half and white lower half, a black three-bladed trefoil symbol in the upper area, the word area below it, and the numeral 7 at the bottom point. Neutral even lighting, plain background, no vehicle context, no people.",
               "alt": "Diamond hazard placard with a yellow upper half and white lower half, a black three-bladed trefoil symbol, and the numeral 7.",
               "answer": "Class 7 radioactive. Time, distance and shielding, and a request for the resources your department does not carry — this is an isolate-and-wait placard at operations level.",
-              "teaching_focus": "Knowing which placards mean your job is perimeter and nothing else."
+              "teaching_focus": "Knowing which placards mean your job is perimeter and nothing else.",
+              "asset_path": "resources/HZM-006/08-class7-radioactive.jpg"
             },
             {
               "text": "DANGEROUS placard on a mixed load — name what it means and why it makes your job harder, not easier.",
               "synthetic_prompt": "Flat straight-on illustration of a standard diamond-shaped DOT hazard placard, upper half red and lower half white with a red lower band, bearing the word DANGEROUS in dark capital letters across the middle, no symbol and no class numeral. Neutral even lighting, plain background, no vehicle context, no people.",
               "alt": "Diamond hazard placard with red and white bands bearing the word DANGEROUS in capital letters, with no symbol or class number.",
               "answer": "A mixed load of two or more hazard classes in placardable quantities, with no single class identified. It tells you there is a hazmat problem and nothing about which one — the shipping papers become the primary reference, not the placard.",
-              "teaching_focus": "The placard that forces you off the placard and onto the paperwork."
+              "teaching_focus": "The placard that forces you off the placard and onto the paperwork.",
+              "asset_path": "resources/HZM-006/09-dangerous.jpg"
             },
             {
               "text": "Non-pressure cargo tank silhouette (oval cross-section, bottom valves) — name the container family and the product family it usually carries.",
               "synthetic_prompt": "Clean technical side-elevation line illustration of a highway cargo tank trailer with an oval cross-section tank, a flat top with several small dome covers along the centerline, visible bottom-mounted valve piping midway along the underside, and a rollover protection rail along the top edge. Plain white background, thin dark lines, engineering-drawing style, no lettering, no placards, no damage, no context.",
               "alt": "Technical side-elevation drawing of an oval-cross-section highway cargo tank trailer with dome covers on top, bottom valve piping, and a top rollover rail.",
               "answer": "A non-pressure cargo tank — the oval cross-section, multiple top domes and bottom-unloading valves are the tells. Commonly flammable and combustible liquids, typically in compartments, so a leak may involve only part of the load. Commonly designated MC-306 / DOT-406. The designation matters less on scene than reading the shape, but it appears on written hazmat examinations, so learn both.",
-              "teaching_focus": "Compartmentation. The silhouette tells you the leak may not be the whole load."
+              "teaching_focus": "Compartmentation. The silhouette tells you the leak may not be the whole load.",
+              "asset_path": "resources/HZM-006/10-nonpressure-cargo-tank.jpg"
             },
             {
               "text": "High-pressure cargo tank silhouette (circular cross-section, rounded heads, no external frame) — name the family and what pressure changes.",
               "synthetic_prompt": "Clean technical side-elevation line illustration of a highway cargo tank trailer with a uniform circular cross-section, smoothly rounded hemispherical ends, a single small protective housing on top, and no external ribs or frame. Plain white background, thin dark lines, engineering-drawing style, no lettering, no placards, no damage, no context.",
               "alt": "Technical side-elevation drawing of a circular-cross-section highway cargo tank trailer with rounded hemispherical ends and a single small top housing.",
               "answer": "A high-pressure cargo tank — round cross-section and rounded heads are the pressure tells. Liquefied compressed gases, so a release expands enormously, relief devices may operate, and fire impingement raises a container-failure question. Commonly designated MC-331. The designation matters less on scene than reading the shape, but it appears on written hazmat examinations, so learn both.",
-              "teaching_focus": "Round means pressure means a failure mode that is not a spill."
+              "teaching_focus": "Round means pressure means a failure mode that is not a spill.",
+              "asset_path": "resources/HZM-006/11-high-pressure-cargo-tank.jpg"
             },
             {
               "text": "Corrosive liquid cargo tank silhouette (small-diameter round tank with external reinforcing rings) — name the family.",
               "synthetic_prompt": "Clean technical side-elevation line illustration of a highway cargo tank trailer with a relatively small-diameter circular tank, several evenly spaced external reinforcing rings around the tank body, flat ends, and top-mounted fittings in a small housing. Plain white background, thin dark lines, engineering-drawing style, no lettering, no placards, no damage, no context.",
               "alt": "Technical side-elevation drawing of a small-diameter round highway cargo tank with external reinforcing rings and top-mounted fittings.",
               "answer": "A corrosive liquid cargo tank — small diameter for a dense product, external rings, and top unloading. Dense product means a small tank can hold a heavy load. Commonly designated MC-312 / DOT-412. The designation matters less on scene than reading the shape, but it appears on written hazmat examinations, so learn both.",
-              "teaching_focus": "Small container is not small quantity when the product is dense."
+              "teaching_focus": "Small container is not small quantity when the product is dense.",
+              "asset_path": "resources/HZM-006/12-corrosive-cargo-tank.jpg"
             },
             {
               "text": "Dry bulk cargo tank silhouette (sloped hoppers underneath) — name the family and the hazard that is easy to underestimate.",
               "synthetic_prompt": "Clean technical side-elevation line illustration of a highway dry bulk cargo trailer with a rounded tank body and two or three conical hoppers sloping down beneath it to discharge outlets, plus external piping running along the lower side. Plain white background, thin dark lines, engineering-drawing style, no lettering, no placards, no damage, no context.",
               "alt": "Technical side-elevation drawing of a dry bulk cargo trailer with a rounded body and conical hoppers sloping to discharge outlets underneath.",
               "answer": "A dry bulk carrier. Solids, often pressurised for unloading. Dust, reactivity with water, and the fact that a solid can still be a serious inhalation hazard. Commonly a pneumatic hopper / dry bulk carrier.",
-              "teaching_focus": "Solid does not mean inert, and pneumatic unloading means pressure on a non-pressure-looking container."
+              "teaching_focus": "Solid does not mean inert, and pneumatic unloading means pressure on a non-pressure-looking container.",
+              "asset_path": "resources/HZM-006/13-dry-bulk.jpg"
             },
             {
               "text": "Pressure rail tank car silhouette (single top housing, no visible fittings elsewhere) — name it and state the approach implication.",
               "synthetic_prompt": "Clean technical side-elevation line illustration of a railroad tank car with a long circular tank, rounded ends, a single raised protective housing centerd on top, no visible external fittings elsewhere, resting on two rail trucks with wheels. Plain white background, thin dark lines, engineering-drawing style, no lettering, no placards, no damage, no context.",
               "alt": "Technical side-elevation drawing of a railroad tank car with a single raised protective housing on top and no other visible external fittings, on two rail trucks.",
               "answer": "A pressure tank car — all fittings gathered under one protective housing is the tell. Very large quantity of a liquefied gas, so the isolation distance is a rail-scale distance and approach is from upwind and upgrade only.",
-              "teaching_focus": "One container that can exceed a whole district's water supply in consequence."
+              "teaching_focus": "One container that can exceed a whole district's water supply in consequence.",
+              "asset_path": "resources/HZM-006/14-pressure-railcar.jpg"
             },
             {
               "text": "Non-pressure rail tank car silhouette (visible bottom outlet and multiple top fittings) — name it and state what the exposed fittings mean.",
               "synthetic_prompt": "Clean technical side-elevation line illustration of a railroad tank car with a circular tank, a flat-topped expansion dome and several separate exposed fittings along the top, a visible bottom outlet valve beneath the center, and an external walkway along the side, resting on two rail trucks. Plain white background, thin dark lines, engineering-drawing style, no lettering, no placards, no damage, no context.",
               "alt": "Technical side-elevation drawing of a railroad tank car with exposed top fittings, an expansion dome, a bottom outlet valve, and a side walkway, on two rail trucks.",
               "answer": "A non-pressure (general service) tank car. Exposed fittings and a bottom outlet mean more points that can be damaged in a derailment and more places a release can originate.",
-              "teaching_focus": "Counting the ways a container can leak from its silhouette."
+              "teaching_focus": "Counting the ways a container can leak from its silhouette.",
+              "asset_path": "resources/HZM-006/15-nonpressure-railcar.jpg"
             },
             {
               "text": "Compressed gas cylinder, tall and slender with a valve cap — name the container and the failure mode to respect.",
               "synthetic_prompt": "Clean technical illustration of a single tall slender industrial compressed gas cylinder standing upright, rounded shoulder, a threaded protective valve cap screwed on top, plain unmarked body. Plain white background, thin dark lines, engineering-drawing style, no lettering, no placards, no damage, no context.",
               "alt": "Technical drawing of a tall slender upright industrial compressed gas cylinder with a rounded shoulder and a threaded protective valve cap.",
               "answer": "A high-pressure compressed gas cylinder. Under fire impingement it can fail violently and the valve end is a projectile hazard; the cap protects the valve and its absence is itself a finding.",
-              "teaching_focus": "The smallest container on the deck and one of the most dangerous under heat."
+              "teaching_focus": "The smallest container on the deck and one of the most dangerous under heat.",
+              "asset_path": "resources/HZM-006/16-compressed-gas-cylinder.png"
             },
             {
               "text": "Liquefied gas cylinder, squat with a collar and multiple valves — name it and distinguish it from the previous card.",
               "synthetic_prompt": "Clean technical illustration of a squat wide industrial liquefied gas cylinder standing upright, roughly as wide as it is tall, with a raised protective collar around the top and two or three valve fittings visible inside the collar, plain unmarked body. Plain white background, thin dark lines, engineering-drawing style, no lettering, no placards, no damage, no context.",
               "alt": "Technical drawing of a squat wide upright liquefied gas cylinder with a raised protective collar and two or three valve fittings inside it.",
               "answer": "A liquefied gas cylinder. Squat proportions and a collar with several valves rather than a single capped valve; it holds liquid and vapour, so both a liquid and a vapour release are possible from the same container.",
-              "teaching_focus": "Two phases in one container means two different releases."
+              "teaching_focus": "Two phases in one container means two different releases.",
+              "asset_path": "resources/HZM-006/17-liquefied-gas-cylinder.png"
             },
             {
               "text": "Intermediate bulk container in a steel cage on a pallet — name it and state what the cage does and does not do.",
               "synthetic_prompt": "Clean technical illustration of a cubic intermediate bulk container: a translucent plastic inner vessel enclosed in a welded tubular steel cage, mounted on an integral pallet base, with a large screw cap on top and a discharge valve at the bottom front. Plain white background, thin dark lines, engineering-drawing style, no lettering, no placards, no damage, no context.",
               "alt": "Technical drawing of a cubic intermediate bulk container with a plastic inner vessel in a welded steel cage on a pallet, with a top screw cap and a bottom discharge valve.",
               "answer": "An IBC, typically several hundred gallons. The cage is handling protection, not fire or impact protection — the plastic vessel fails readily in fire, and a warehouse holds many of them together.",
-              "teaching_focus": "The container firefighters meet most often and size up least carefully."
+              "teaching_focus": "The container firefighters meet most often and size up least carefully.",
+              "asset_path": "resources/HZM-006/18-ibc.jpg"
             },
             {
               "text": "Marine pollutant mark — name it and state what it adds that a hazard class does not.",
               "synthetic_prompt": "Flat straight-on illustration of a standard marine pollutant mark: a black symbol of a dead fish and a leafless tree, with a thin black border, on a plain white background. Do not emphasise the outline shape. Neutral even lighting, plain background, no vehicle context, no people.",
               "alt": "Marine pollutant mark showing a black dead-fish and leafless-tree symbol with a thin black border on a white background.",
               "answer": "The marine pollutant mark. Identify it by the dead fish and tree symbol rather than by its outline — the official mark is a diamond but some labelling in the field shows a triangle, and arguing about the shape wastes the identification. It says nothing about acute human hazard and everything about the environmental consequence of runoff, which makes drainage and waterways part of the first-due problem.",
-              "teaching_focus": "Identify by symbol, not outline. A mark that changes tactics without changing the health hazard."
+              "teaching_focus": "Identify by symbol, not outline. A mark that changes tactics without changing the health hazard.",
+              "asset_path": "resources/HZM-006/19-marine-pollutant.jpg"
             },
             {
               "text": "An orange four-digit panel with no hazard diamond beside it — state what you can and cannot do with it.",
               "synthetic_prompt": "Flat straight-on illustration of a rectangular orange panel with a thin black border bearing four large dark numerals, mounted alone on a plain metal surface with no diamond placard nearby. Neutral even lighting, plain background, no vehicle context, no people.",
               "alt": "Rectangular orange panel with a thin black border bearing four large numerals, mounted alone with no hazard diamond nearby.",
               "answer": "A UN/ID number panel. It is the most specific clue on the deck: it identifies the material rather than the class, so it goes straight into the ERG's numerical index. Read it with binoculars from upwind and upgrade, and never move closer to read it.",
-              "teaching_focus": "The best clue on the vehicle, and the discipline of reading it from distance."
+              "teaching_focus": "The best clue on the vehicle, and the discipline of reading it from distance.",
+              "asset_path": "resources/HZM-006/20-un-id-panel.png"
             }
           ]
         },
@@ -2519,63 +2552,72 @@
               "synthetic_prompt": "Clean technical side-elevation line illustration of a parallel-chord lightweight wooden floor truss: two horizontal chords of dimensional lumber connected by a repeating pattern of short diagonal webs, joined at each intersection by a flat toothed metal connector plate. Plain white background, thin dark lines, engineering-drawing style, no lettering, no damage, no fire.",
               "alt": "Technical side-elevation drawing of a parallel-chord lightweight wooden floor truss with two horizontal chords, diagonal webs, and flat toothed metal connector plates at the joints.",
               "answer": "Parallel-chord truss. The connector plates are the weak point: they have shallow penetration and lose grip as the wood chars or the plate heats and distorts. Failure is of the connection, not of a big member burning through.",
-              "teaching_focus": "The plate, not the timber. This is the single most important identification in the deck."
+              "teaching_focus": "The plate, not the timber. This is the single most important identification in the deck.",
+              "asset_path": "resources/LODD-005/01-parallel-chord-wood-truss.jpg"
             },
             {
               "text": "Toothed connector plate, close up — identify it and state how deep it goes.",
               "synthetic_prompt": "Clean technical close-up line illustration of a flat galvanised toothed connector plate pressed into the joint between a wooden chord and two diagonal web members, showing the short teeth punched from the plate penetrating only a short distance into the wood, drawn in cutaway. Plain white background, thin dark lines, engineering-drawing style, no lettering, no damage, no fire.",
               "alt": "Technical cutaway close-up of a galvanised toothed connector plate at a truss joint, showing short teeth penetrating a shallow depth into the wood.",
               "answer": "A gang-nail or truss plate. The teeth are short — a fraction of an inch. There is no through-bolt and no significant embedment, so heat or char at the surface is enough to release the joint.",
-              "teaching_focus": "Seeing the shallowness makes the failure mode obvious in a way a description does not."
+              "teaching_focus": "Seeing the shallowness makes the failure mode obvious in a way a description does not.",
+              "asset_path": "resources/LODD-005/02-toothed-connector-plate.jpg"
             },
             {
               "text": "Wooden I-joist — identify the members and state what the web is made of.",
               "synthetic_prompt": "Clean technical side-elevation and end-section line illustration of an engineered wooden I-joist: a thin vertical web panel of oriented strand board set into grooves in a top and bottom flange of solid lumber, forming an I shape in cross-section. Plain white background, thin dark lines, engineering-drawing style, no lettering, no damage, no fire.",
               "alt": "Technical drawing of an engineered wooden I-joist in side and end view, showing a thin oriented-strand-board web between solid lumber top and bottom flanges.",
               "answer": "An I-joist. The web is thin OSB — very little mass. It burns through quickly and the joist loses its shear capacity long before the flanges are consumed.",
-              "teaching_focus": "Thin web, low mass, fast failure. The opposite of a sawn joist's behavior."
+              "teaching_focus": "Thin web, low mass, fast failure. The opposite of a sawn joist's behavior.",
+              "asset_path": "resources/LODD-005/03-wooden-i-joist.png"
             },
             {
               "text": "Web penetration through an I-joist — identify it and state what it changes.",
               "synthetic_prompt": "Clean technical side-elevation line illustration of an engineered wooden I-joist with a large circular hole cut through the thin web panel near mid-span, with a duct and an electrical cable passing through the hole. Plain white background, thin dark lines, engineering-drawing style, no lettering, no damage, no fire.",
               "alt": "Technical side-elevation drawing of a wooden I-joist with a large circular hole cut through its web, with a duct and cable passing through it.",
               "answer": "A service penetration. It reduces the web further and, more importantly, it connects the joist bays into one continuous void, so fire and smoke travel the whole floor system rather than one bay.",
-              "teaching_focus": "The penetration turns separate voids into one void. That is what makes the whole floor go at once."
+              "teaching_focus": "The penetration turns separate voids into one void. That is what makes the whole floor go at once.",
+              "asset_path": "resources/LODD-005/04-i-joist-web-penetration.png"
             },
             {
               "text": "Open-web steel bar joist — identify it and state its failure mode.",
               "synthetic_prompt": "Clean technical side-elevation line illustration of an open-web steel bar joist: two horizontal steel angle chords connected by a continuous zigzag round steel bar web, with bearing seats at each end. Plain white background, thin dark lines, engineering-drawing style, no lettering, no damage, no fire.",
               "alt": "Technical side-elevation drawing of an open-web steel bar joist with steel angle chords, a continuous zigzag round-bar web, and bearing seats at each end.",
               "answer": "A bar joist. Unprotected steel elongates then loses strength as it heats, and the thin web bars have very little mass to absorb heat. Failure can be sudden and can push out the bearing wall as the joist elongates.",
-              "teaching_focus": "Steel does not burn, and that is not reassuring — it sags, elongates, and pushes."
+              "teaching_focus": "Steel does not burn, and that is not reassuring — it sags, elongates, and pushes.",
+              "asset_path": "resources/LODD-005/05-open-web-steel-bar-joist.jpg"
             },
             {
               "text": "Lightweight concrete over steel deck on bar joists — identify the assembly.",
               "synthetic_prompt": "Clean technical cutaway section line illustration of a floor assembly: corrugated steel decking spanning across open-web steel bar joists, with a thin layer of lightweight concrete poured over the decking. Plain white background, thin dark lines, engineering-drawing style, no lettering, no damage, no fire.",
               "alt": "Technical cutaway section of a floor assembly with lightweight concrete over corrugated steel decking supported on open-web steel bar joists.",
               "answer": "A composite deck. The top surface feels utterly solid to someone standing on it while the unprotected joists beneath are being heated. Sounding tells you nothing about the joists.",
-              "teaching_focus": "A floor that feels reassuring from above while failing from below."
+              "teaching_focus": "A floor that feels reassuring from above while failing from below.",
+              "asset_path": "resources/LODD-005/06-concrete-steel-deck-bar-joists.jpg"
             },
             {
               "text": "Glue-laminated beam — identify it and distinguish it from a solid timber.",
               "synthetic_prompt": "Clean technical end-section and side-elevation line illustration of a glue-laminated structural beam, showing many thin horizontal laminations bonded together through the full depth of the beam, with visible glue lines between each lamination. Plain white background, thin dark lines, engineering-drawing style, no lettering, no damage, no fire.",
               "alt": "Technical end-section and side view of a glue-laminated beam showing many thin horizontal laminations with visible glue lines.",
               "answer": "Glulam. Distinguished from heavy timber by the visible glue lines. It has real mass and chars more predictably than a truss, but the adhesive lines are a delamination path under sustained heat.",
-              "teaching_focus": "The one engineered member with mass on its side, and its specific weakness."
+              "teaching_focus": "The one engineered member with mass on its side, and its specific weakness.",
+              "asset_path": "resources/LODD-005/07-glulam-beam.png"
             },
             {
               "text": "Truss roof behind a conventional-looking soffit — trace what is hidden.",
               "synthetic_prompt": "Clean technical cutaway section line illustration of a residential roof edge: from outside, a conventional-looking eave with fascia and soffit; cut away to reveal lightweight parallel-chord roof trusses with connector plates inside, and a continuous open attic void above the ceiling line. Plain white background, thin dark lines, engineering-drawing style, no lettering, no damage, no fire.",
               "alt": "Technical cutaway of a residential eave showing a conventional-looking fascia and soffit outside, with lightweight plated roof trusses and a continuous attic void revealed inside.",
               "answer": "A conventional exterior over a lightweight structure. Nothing visible from the street distinguishes it. The soffit vents feed the void directly, and the void is continuous over the whole floor plan.",
-              "teaching_focus": "Why exterior size-up cannot answer the construction question by itself."
+              "teaching_focus": "Why exterior size-up cannot answer the construction question by itself.",
+              "asset_path": "resources/LODD-005/08-soffit-truss.jpg"
             },
             {
               "text": "Renovated ceiling — original joists plus a newer lightweight assembly above.",
               "synthetic_prompt": "Clean technical cutaway section line illustration showing two stacked floor structures: below, older solid sawn dimensional joists with a finished ceiling; above them, a newer lightweight engineered joist assembly with a subfloor, leaving a concealed void between the two systems. Plain white background, thin dark lines, engineering-drawing style, no lettering, no damage, no fire.",
               "alt": "Technical cutaway showing older solid sawn joists with a finished ceiling below, a newer lightweight engineered joist assembly above, and a concealed void between them.",
               "answer": "A renovation stack. There is a void nobody knows about between two structural systems of different eras and different failure times, and opening the ceiling from below tells you about the old system only.",
-              "teaching_focus": "The building that is two buildings. Renovation history is a structural question."
+              "teaching_focus": "The building that is two buildings. Renovation history is a structural question.",
+              "asset_path": "resources/LODD-005/09-renovated-ceiling-stack.jpg"
             },
             {
               "text": "The card you fill — how to find out what you actually have.",
@@ -3243,49 +3285,57 @@
               "text": "Balloon-frame two-and-a-half story dwelling — identify the construction, the void spaces it implies, and where fire travels that you cannot see.",
               "synthetic_prompt": "Clear daytime architectural photograph-style image of a two-and-a-half story older American wood-frame house with clapboard siding, a steep gable roof with a dormer, a full-width front porch, and tall narrow windows. Neutral overcast light, no smoke, no fire, no people, no vehicles. Three-quarter view from the street showing the front and one side.",
               "alt": "Two-and-a-half story older wood-frame house with clapboard siding, steep gabled roof with a dormer, full-width front porch, and tall narrow windows, seen from the street at a three-quarter angle.",
-              "teaching_focus": "Age and form as construction evidence, and the vertical void the form implies."
+              "teaching_focus": "Age and form as construction evidence, and the vertical void the form implies.",
+              "asset_path": "resources/OFF-001/01-balloon-frame-dwelling.jpg"
             },
             {
               "text": "Lightweight-truss single-story ranch with a renovated facade — identify what the facade hides and state what you would want confirmed before committing to the roof.",
               "synthetic_prompt": "Clear daytime architectural photograph-style image of a single-story suburban ranch house with a low-pitched roof, recently updated stone veneer on the front elevation, vinyl siding on the visible side elevation, and an attached two-car garage. Neutral overcast light, no smoke, no fire, no people. Three-quarter view showing the mismatch between the front and side finishes.",
               "alt": "Single-story ranch house with a low-pitched roof, new stone veneer on the front and vinyl siding on the side, with an attached two-car garage.",
-              "teaching_focus": "A renovation that changes the appearance and not the structure. The finish mismatch is the tell."
+              "teaching_focus": "A renovation that changes the appearance and not the structure. The finish mismatch is the tell.",
+              "asset_path": "resources/OFF-001/02-ranch-renovated-facade.jpg"
             },
             {
               "text": "Three-story garden apartment building — identify the access, count the units in view, and state where your line goes.",
               "synthetic_prompt": "Clear daytime architectural photograph-style image of a three-story garden apartment building with brick lower level and siding above, exterior stairs and open breezeways serving the upper floors, multiple identical entry doors visible, and a parking lot in the foreground. Neutral overcast light, no smoke, no fire, no people, no vehicles.",
               "alt": "Three-story garden apartment building with brick lower level, siding above, exterior stairs and open breezeways, several identical entry doors, and a parking lot in front.",
-              "teaching_focus": "Turning a repeating facade into a stretch estimate and an apartment number."
+              "teaching_focus": "Turning a repeating facade into a stretch estimate and an apartment number.",
+              "asset_path": "resources/OFF-001/03-garden-apartment.jpg"
             },
             {
               "text": "Commercial strip with security bars and a deep footprint — identify the occupancy type, the access problem, and what you require before entry.",
               "synthetic_prompt": "Clear daytime architectural photograph-style image of a single-story commercial strip building with four adjacent storefronts, flat roof with a parapet, large plate-glass display windows fitted with metal security bars, roll-down shutter on one unit, and a wide sidewalk with parking in front. Neutral overcast light, no smoke, no fire, no people, no vehicles.",
               "alt": "Single-story commercial strip with four storefronts, flat parapet roof, plate-glass windows fitted with metal security bars, and a roll-down shutter on one unit.",
-              "teaching_focus": "Egress and access as size-up elements, and the depth you cannot see from the front."
+              "teaching_focus": "Egress and access as size-up elements, and the depth you cannot see from the front.",
+              "asset_path": "resources/OFF-001/04-commercial-strip.jpg"
             },
             {
               "text": "Dwelling on a downslope with a walk-out below grade — identify the floor count from the front and from the rear, and state what the difference does to your size-up.",
               "synthetic_prompt": "Clear daytime architectural photograph-style image of a suburban house built on a downward-sloping lot, appearing as a single story from the street side and revealing an additional full walk-out lower level with a patio door at the rear because of the grade change. Wide three-quarter view capturing both the street elevation and the drop in grade along the side. Neutral overcast light, no smoke, no fire, no people.",
               "alt": "House on a downward-sloping lot appearing single-story from the street and revealing a full walk-out lower level with a patio door at the rear due to the grade change.",
-              "teaching_focus": "The building that is a different building from the back, which is the mechanism behind a large share of basement-fire reports."
+              "teaching_focus": "The building that is a different building from the back, which is the mechanism behind a large share of basement-fire reports.",
+              "asset_path": "resources/OFF-001/05-downslope-walkout.jpg"
             },
             {
               "text": "Ordinary-construction mixed-use main-street building — identify the construction, the occupancies stacked in it, and the collapse concern.",
               "synthetic_prompt": "Clear daytime architectural photograph-style image of a three-story brick mixed-use main-street building with a commercial storefront at ground level, residential windows on the two upper floors, a flat roof with a decorative cornice and parapet, and a fire escape on the visible side elevation. Neutral overcast light, no smoke, no fire, no people, no vehicles.",
               "alt": "Three-story brick mixed-use building with a commercial storefront at street level, residential windows above, flat roof with cornice and parapet, and a fire escape on the side.",
-              "teaching_focus": "Occupancy stacking, and the parapet and cornice as collapse features."
+              "teaching_focus": "Occupancy stacking, and the parapet and cornice as collapse features.",
+              "asset_path": "resources/OFF-001/06-mixed-use-main-street.jpg"
             },
             {
               "text": "Large single-story open-span commercial building — identify the construction and state what the span does to your interior operations.",
               "synthetic_prompt": "Clear daytime architectural photograph-style image of a large single-story big-box commercial building with concrete tilt-up walls, a very wide flat roof, roof-mounted HVAC units visible along the roofline, a single main customer entrance, and a loading dock at one end. Wide view from across a large empty parking lot. Neutral overcast light, no smoke, no fire, no people, no vehicles.",
               "alt": "Large single-story big-box commercial building with concrete tilt-up walls, wide flat roof with roof-mounted HVAC units, one main entrance, and a loading dock at one end.",
-              "teaching_focus": "Span, distance to the seat, and the orientation problem — the LODD-002 lesson, in a building with nothing showing."
+              "teaching_focus": "Span, distance to the seat, and the orientation problem — the LODD-002 lesson, in a building with nothing showing.",
+              "asset_path": "resources/OFF-001/07-big-box-openspan.jpg"
             },
             {
               "text": "Nothing showing — a residential street view with no visible complication. Give the report anyway.",
               "synthetic_prompt": "Clear daytime architectural photograph-style image of an unremarkable two-story suburban wood-frame house with vinyl siding, an attached garage, a concrete driveway and a small front lawn. Completely ordinary, nothing unusual, no smoke, no fire, no people, no vehicles. Straight-on view from the street.",
               "alt": "Ordinary two-story suburban wood-frame house with vinyl siding, attached garage, concrete driveway and front lawn, seen straight on from the street.",
-              "teaching_focus": "The report for the building with nothing showing, which is most of the calls and none of the practice."
+              "teaching_focus": "The report for the building with nothing showing, which is most of the calls and none of the practice.",
+              "asset_path": "resources/OFF-001/08-nothing-showing.jpg"
             }
           ]
         }

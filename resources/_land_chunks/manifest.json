@@ -1,7 +1,7 @@
 {
-  "n_chunks": 123,
+  "n_chunks": 31,
   "tar_sha256": "53db88671a35d4dc58133afb2fd5aa2f7ec152a2a587ad41c9370d1bb89ada57",
   "b64_len": 2447564,
   "tar_len": 1835672,
-  "chunk_size": 20000
+  "chunk_size": 80000
 }
